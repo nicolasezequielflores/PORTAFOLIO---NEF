@@ -436,9 +436,9 @@ nav ul{
     min-height: 90vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: center;  
 }
+
 .titulocont{
     background: #000000;
     width: 200px;
@@ -447,13 +447,11 @@ nav ul{
 
 .formcont{
     width: 100%;
-    
     display: flex;
     justify-content: center;
 }
 
 form{
- 
     display: grid;
     justify-content: center;
     width: 80%;
@@ -473,7 +471,7 @@ input{
 }
 
 textarea{
-    margin: 0 0 20px 0;
+    margin: 10px 0 20px 0;
     resize: none;
     height: 120px;
     border: 1px solid rgba(0, 0, 0, 0.884);
@@ -868,7 +866,7 @@ input{
 
 textarea{
     width: 350px;
-    margin: 0 0 20px 0;
+    margin: 10px 0 20px 0;
     resize: none;
     height: 120px;
     border: 1px solid rgba(0, 0, 0, 0.884);
