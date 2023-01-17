@@ -130,7 +130,7 @@ nav ul{
 .qsoy{
     font-size: 55px;
     font-weight: 100;
-    color: #83db8c;;
+    color: #9ac49e;;
     margin: 0 0;
 }
 
@@ -215,7 +215,7 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0000003f;
+    background: #00000000;
     height: 80%;
     width: 80%;
     transition: 0.8s;
@@ -371,7 +371,7 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0000003f;
+    background: #00000000;
     height: 80%;
     width: 80%;
     transition: 0.8s;
@@ -601,30 +601,37 @@ footer{
         background-color: black;
         border-radius: 50%;
         color: white;
+       
     }
  
+    
     @media (max-width:414px){
 
     /* ----------------------------BOTON--------------------------------------- */
+
     #back-to-top {
         position: fixed;
         bottom: 0;
         right: 0;
-         width: 100px;
+        width: 100px;
         height: 100px;
-        color: white;
+        color: rgb(0, 0, 0);
         display: block;
         background: url(../img/icons8-chevron-arriba-en-círculo-100.png);
         background-size: cover;
         background-repeat: no-repeat;
         border: 0 solid #000000;
         margin: 5px;
+    
     }
 
     .up{
         width: 100%;
         height: 100%;
+        
     }
+
+    
     /* ----------------------------INICIO--------------------------------------- */
     
 
@@ -789,7 +796,7 @@ footer{
     font-size: 10px;
     padding: 10px 20px;
     background: #000000;
-    color: rgb(182, 182, 182);
+    color: rgb(255, 255, 255);
 }
 
 .len{
@@ -798,7 +805,7 @@ footer{
     padding: 5px;
     margin: 2px;
     background: #000000;
-    color: rgb(182, 182, 182);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     transition: 1s;
@@ -807,7 +814,7 @@ footer{
 
 .len:hover{
 
-    transform: rotate(360deg) scale(1.2);
+    transform: none;
 }
 
 
@@ -1039,7 +1046,7 @@ footer{
 }
 
 .sec:hover{
-    transform: rotate(20deg) scale(1.2);
+    transform: none
     
 }
 
