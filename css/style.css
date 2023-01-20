@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0;
     padding: 0;
@@ -310,16 +309,18 @@ nav ul{
   
     background: #000000;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items: flex-end;
     color:white;
+    font-size: 13px;
 }
 
-.ca:hover{
+
+/* .ca:hover{
 
     background-size:auto;
     background-repeat: no-repeat;
-}
+} */
 
 .caja1{
    
@@ -328,15 +329,21 @@ nav ul{
     background-repeat: no-repeat;
     background-position: center;
     grid-area: caja1;
+    
 }
 
 .caja2{
-    background-image: url(../img/Fondos/dos.jpg);
+    background-image: url(../PROYECTO1/img/imgEscritorio\(1\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     grid-area: caja2;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    color:white;
+    font-size: 13px;
 }
+
 
 .caja3{
     background-image: url(../img/Fondos/tres.jpg);
@@ -352,6 +359,37 @@ nav ul{
     background-position: center;
     background-repeat: no-repeat;
     grid-area: caja4;
+}
+
+.btnvm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    color: white;
+    background: #000000;
+    transition: 1s;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 30px;
+    
+}
+
+.btnvm:hover{
+    color: #000000;
+    backdrop-filter: blur(10px);
+    background: #ffffff00;
+    border: 1px solid #000000;
+    
+}
+
+.buttonvm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    padding: 45px 30px 30px 30px;
 }
 
 
@@ -603,9 +641,13 @@ footer{
         color: white;
        
     }
+
+
+
+
  
     
-     @media (max-width:1071px){
+    @media (max-width:1071px){
 
     /* ----------------------------BOTON RESPONSIVE--------------------------------------- */
 
@@ -753,6 +795,47 @@ footer{
         justify-content: center;
         gap: 25px;  
     }
+   /* ----------------------------PROYECTOS RESPONSIVE--------------------------------------- */
+    .btnvm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 50px;
+        color: white;
+        background: #000000;
+        transition: 1s;
+        font-size: 14px;
+        font-weight: 300;
+        border-radius: 30px;
+        
+    }
+    
+    .btnvm:hover{
+        color: #000000;
+        backdrop-filter: blur(10px);
+        background: #ffffff00;
+        border: 1px solid #000000;
+        
+    }
+    
+    .buttonvm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff;
+        padding: 60px 30px 30px 30px;
+    }
+
+    .caja2{
+        background-image: url(../PROYECTO1/img/33632332_phone_14_01\(1\).png);
+        background-size: 280px;
+        background-repeat: no-repeat;
+        background-position: center;
+        grid-area: caja2;
+    }
+
+    
 
     /* ----------------------------HABILIDADES RESPONSIVE--------------------------------------- */
 

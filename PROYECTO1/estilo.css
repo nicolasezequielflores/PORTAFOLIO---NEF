@@ -128,7 +128,7 @@
 /* ---------------------------------------------------------------------------------------------- */
 
 
-@media (min-width:430px){
+@media (max-width:430px){
 
     .containeraut{
         width: 100%;
@@ -185,10 +185,6 @@
         color: #2c2c2c;
         font-weight: 200;  
         transition: 1s;
-    }
-    
-    .subtitulo:hover{
-        
     }
     
     .resumen{
