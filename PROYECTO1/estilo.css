@@ -1,0 +1,249 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.animate__animated.animate__backInRight{
+    --animate-duration: 0.8s;
+  }
+
+
+.containeraut{
+    width: 100%;
+    height: 100vh;
+    background: #b9b6d5;
+    overflow: hidden;
+}
+
+.auto{
+    width: 1200px;
+    height:1100px;
+    background-image: url(/img/autos/car-41483132.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.auto:hover{
+    transform: rotate(20deg );
+}
+
+.tit{
+    width: 50%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    
+}
+
+.conttit{
+    position: fixed;
+    z-index: 1;
+}
+
+.tituno{
+    font-size: 92.8px;
+    padding:  30px 30px 10px 30px;
+    font-weight: 500;   
+    color: rgb(36, 36, 36);
+    cursor: pointer;
+}
+
+
+.link-bug{
+    padding:  0 30px 30px 30px;
+}
+
+.subtitulo{
+    font-size: 28px;
+    color: #b9b6d5;
+    font-weight: 200;  
+    transition: 1s;
+}
+
+.subtitulo:hover{
+    color: rgb(36, 36, 36);
+}
+
+.resumen{
+    padding: 10px 1030px 0 30px;
+    font-weight: 300;
+    color: #b3b3b3;
+}
+
+.ryc{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+ .copy{
+    padding: 60px 30px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+.ig{
+    font-weight: 400;
+    color: #b9b6d5;
+}
+
+.copytxt{
+    font-weight: 300;
+    padding: 0 0 0 80px;
+    font-size: 13px;
+ 
+}
+
+.cont{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contrds{
+    width: 30px;
+    height: 30px;
+    transition: 0.6s;
+}
+
+.contrds:hover{
+    transform: scale(1.3);
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+
+@media (min-height:410px){
+
+    .containeraut{
+        width: 100%;
+        height: 100vh;
+        background: #b9b6d5;
+        overflow: hidden;
+    }
+    
+    .auto{
+        margin: 200px 0;
+        width: 400px;
+        height: 400px;
+        background-image: url(/img/autos/car-41483132.png);
+        background-size: cover;
+        background-position: center;
+        
+
+        transition: 1s;
+        cursor: pointer;
+    }
+    
+    .auto:hover{
+        transform: rotate(20deg );
+    }
+    
+    .tit{
+        width: 50%;
+        height: 100vh;
+        background: rgb(255, 255, 255);
+        
+    }
+    
+    .conttit{
+        position: fixed;
+        z-index: 1;
+    }
+    
+    .tituno{
+        font-size: 27px;
+        padding:  90px 0 10px 10px;
+        font-weight: 500;   
+        color: rgb(36, 36, 36);
+        cursor: pointer;
+    }
+    
+    
+    .link-bug{
+
+        padding:  0 100px 30px 10px;
+    }
+    
+    .subtitulo{
+        font-size: 15px;
+        color: #2c2c2c;
+        font-weight: 200;  
+        transition: 1s;
+    }
+    
+    .subtitulo:hover{
+        
+    }
+    
+    .resumen{
+        padding: 300px 10px 0 10px;
+        font-weight: 300;
+        color: #000000;
+        font-size: 10px;
+    }
+    
+    .ryc{
+        display: flex;
+        align-items: center;
+        padding: 0 0 70px 0;
+    }
+    
+     .copy{
+        padding: 60px 40px;
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+    }
+    
+    .ig{
+        font-weight: 400;
+        color: #000000;
+        
+    }
+    
+    .copytxt{
+        font-weight: 300;
+        padding: 0 0 0 10px;
+        font-size: 13px;
+        
+    }
+    
+    .cont{
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contrds{
+        width: 30px;
+        height: 30px;
+        transition: 0.6s;
+    }
+    
+    .contrds:hover{
+        transform: scale(1.3);
+    }
+    
+
+}
+
+
